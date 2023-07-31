@@ -1,0 +1,49 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEFF5;
+}
+
+
+.content {
+    position: relative;
+    display: flex;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+    background-color: #FFFFFF;
+
+    .arrowBackIcon {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .fL {
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .fR {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        h1 {
+            color: #F7941E;
+        }
+    }
+}

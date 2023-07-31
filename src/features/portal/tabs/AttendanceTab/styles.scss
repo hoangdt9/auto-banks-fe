@@ -1,0 +1,19 @@
+.right-container {
+    height: calc(100vh - 110px);
+    // width: calc(100% - 340px);
+}
+
+.calendar {
+    height: calc(50vh - 90px);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avartar-header {
+    width: 60px;
+    word-break: break-all;
+}

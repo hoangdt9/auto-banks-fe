@@ -1,0 +1,24 @@
+$width: 100%/7;
+.class_tab {
+  .schedule_table {
+    border-collapse: collapse;
+    margin: 0 10px;
+    width: calc(100% - 20px);
+  }
+
+  th {
+    text-align: center;
+  }
+
+  .class_session_row {
+    height: 250px;
+  }
+
+  .week_days {
+    width: $width;
+  }
+
+  // .border {
+  //   text-align: center;
+  // }
+}

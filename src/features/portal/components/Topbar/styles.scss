@@ -1,0 +1,46 @@
+.logo {
+    width: 55px;
+    height: 40px;
+}
+
+.nav-link:link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-button:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-item:hover>.nav-link {
+    color: #F7942C;
+}
+
+.nav-item_line {
+    width: 0%;
+    height: 2px;
+    background-color: #F7942C;
+    transition: all 0.5s;
+}
+
+.nav-item:hover>.nav-link>.nav-item_line {
+    width: 100%;
+}
+
+.active .nav-link {
+    color: #F7942C !important;
+}
+
+.active .nav-item_line {
+    width: 100%;
+}
+
+.icon {
+    color: white !important;
+}
+
+.icon:hover {
+    color: #F7942C !important;
+}

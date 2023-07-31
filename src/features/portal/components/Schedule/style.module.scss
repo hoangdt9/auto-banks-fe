@@ -1,0 +1,30 @@
+.button {
+  $width: 100%/7;
+
+  .schedule_table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .class_session_row {
+    height: 250px;
+  }
+
+  .class_session_col {
+    width: 0;
+  }
+
+  .week_days {
+    width: $width;
+  }
+
+  // td,
+  // th {
+  //   border: 1px solid #000000;
+  //   padding: 8px;
+  // }
+
+  // td:nth-child(even) {
+  //   background-color: #b4e4f6;
+  // }
+}
